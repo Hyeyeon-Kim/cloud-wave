@@ -13,7 +13,7 @@ st.set_page_config(
     initial_sidebar_state="expanded", 
     menu_items=None
 )
-
+#fdfdf
 if 'logged_in' not in st.session_state:
     st.session_state['logged_in'] = True
     # RDS Database Login Session / Login Function
@@ -22,10 +22,10 @@ if 'logged_in' not in st.session_state:
 def side_bar():
     with st.sidebar.container():
         selected_page = option_menu(
-            menu_title="Main Menu", 
+            # menu_title="Main Menu", 
             # options=["Main_Home"],
-            options=["Main_Home", "Photo_Gallery"],
-            # options=["Main_Home", "Photo_Gallery", "Travel_Attractions"],
+            # options=["Main_Home", "Photo_Gallery"],
+            options=["Main_Home", "Photo_Gallery", "Travel_Attractions"],
             icons=['bi bi-house', 'bi bi-images', 'bi bi-airplane-engines'],
             menu_icon="cast", 
             default_index=0,
