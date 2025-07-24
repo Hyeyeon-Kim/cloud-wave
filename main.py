@@ -21,7 +21,7 @@ if 'logged_in' not in st.session_state:
 def side_bar():
     with st.sidebar.container():
         selected_page = option_menu(
-            # menu_title="Main Menu", 
+            menu_title="Main Menu", 
             # options=["Main_Home"],
             # options=["Main_Home", "Photo_Gallery"],
             options=["Main_Home", "Photo_Gallery", "Travel_Attractions"],
