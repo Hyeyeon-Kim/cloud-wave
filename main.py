@@ -13,7 +13,6 @@ st.set_page_config(
     initial_sidebar_state="expanded", 
     menu_items=None
 )
-#fdfdf
 if 'logged_in' not in st.session_state:
     st.session_state['logged_in'] = True
     # RDS Database Login Session / Login Function
